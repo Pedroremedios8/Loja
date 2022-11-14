@@ -60,5 +60,12 @@ namespace Loja
             form.MdiParent = this;
             form.Show();
         }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.MdiParent = this.ParentForm;
+            form.Show();
+        }
     }
 }
